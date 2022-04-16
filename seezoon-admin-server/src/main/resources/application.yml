@@ -1,0 +1,8 @@
+# 环境标识，开发环境有意义，如果觉得污染可以IDEA中启动时候加参数
+spring:
+  profiles:
+    active: local
+    # 更多配置文件时候配合include
+    include: dict
+  application:
+    name: seezoon-admin

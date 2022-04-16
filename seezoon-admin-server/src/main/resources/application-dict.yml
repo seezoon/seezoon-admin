@@ -1,0 +1,9 @@
+seezoon:
+  dicts:
+    user-status:
+      - value: 1
+        zhLabel: 正常
+        color: success
+      - value: 0
+        zhLabel: 停用
+        color: danger

@@ -1,0 +1,38 @@
+{
+  "code": "0",
+  "msg": "ok",
+  "data": [
+    {
+      "path": "/dashboard",
+      "name": "Dashboard",
+      "component": "LAYOUT",
+      "redirect": "/dashboard/analysis",
+      "meta": {
+        "icon": "ion:grid-outline",
+        "title": "routes.dashboard.dashboard"
+      },
+      "children": [
+        {
+          "path": "analysis",
+          "name": "Analysis",
+          "component": "/dashboard/analysis/index.vue",
+          "meta": {
+            "affix": true,
+            "title": "routes.dashboard.analysis"
+          }
+        },
+        {
+          "path": "workbench",
+          "name": "Workbench",
+          "component": "/dashboard/workbench/index.vue",
+          "meta": {
+            "title": "routes.dashboard.workbench",
+            "roles": [
+              "test"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
